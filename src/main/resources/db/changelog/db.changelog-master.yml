@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: skillbox
+      changes:
+        - sqlFile:
+            path: classpath:db/changelog/create_tables.sql
